@@ -1,0 +1,45 @@
+{
+  "title": "Experience",
+  "companies": [
+    {
+      "id": 1,
+      "name": "Numentica UI",
+      "logo": "./nui.png",
+      "position": "Full Stack Developer",
+      "period": "March 2024 – Present",
+      "projects": [
+        {
+          "id": 1,
+          "title": "Driver Connect — Recruiting SaaS Platform",
+          "techStack": "NestJS, PostgreSQL, Prisma, React (Vite), Tailwind CSS, Azure",
+          "description": "Designed and developed RESTful and GraphQL APIs to support end-to-end recruiting workflows. Modeled and optimized database schemas using Prisma ORM with PostgreSQL for scalability. Built reusable UI components using React (Vite), Shadcn/UI, and Tailwind CSS. Implemented role-based access control using custom guards, interceptors, and middlewares. Integrated JWT-based authentication, OTP verification, and persona-based access control. Collaborated with cross-functional teams to define API contracts, reducing integration issues by 30%. Implemented centralized error handling, structured logging, and exception filters. Optimized frontend data fetching and state synchronization using React Hooks and TanStack Query. Developed responsive workflows for candidate onboarding, application stages, and analytics dashboards. Configured environment variables and managed multi-environment deployments. Wrote unit and integration tests using Jest and React Testing Library, achieving 80% coverage."
+        },
+        {
+          "id": 2,
+          "title": "Harbour Air — Corporate Website & CMS Platform",
+          "techStack": "Next.js, Strapi, AWS, Tailwind CSS",
+          "description": "Migrated a legacy WordPress website to a Strapi headless CMS, improving content delivery speed by 45%. Built SEO-optimized pages using Next.js App Router with Static Site Generation. Developed custom Strapi plugins and integrated AWS SES/SMTP for transactional email workflows. Defined API contracts and frontend data models to streamline content publishing. Collaborated with design and content teams to reduce deployment turnaround from two days to six hours."
+        },
+        {
+          "id": 3,
+          "title": "Gocious — Frontend UI Platform",
+          "techStack": "React.js, MUI",
+          "description": "Developed responsive and reusable UI components using React.js and MUI. Refactored frontend architecture and implemented custom React hooks. Identified and mitigated potential security vulnerabilities in React applications. Collaborated with stakeholders to deliver UI enhancements aligned with business requirements."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tekion Corp",
+      "logo": "./tekion.png",
+      "position": "Performance Engineering Intern",
+      "period": "Jan 2023 – Jul 2023 • Chennai",
+      "projects": [
+        {
+          "id": 1,
+          "description": "Analyzed API requests and responses, implementing Java-based parameter randomization to simulate real-world usage. Designed and executed load tests using Apache JMeter for diverse user scenarios. Monitored system performance using AWS CloudWatch to identify and resolve bottlenecks. Utilized Elasticsearch for container log monitoring and system analysis. Collaborated with engineering teams to review system architecture and optimize resource utilization. Conducted capacity planning and stress testing to validate scalability. Optimized database queries and configurations to reduce latency and improve throughput. Integrated performance testing workflows into CI/CD pipelines. Produced detailed performance reports with actionable recommendations."
+        }
+      ]
+    }
+  ]
+}

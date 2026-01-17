@@ -1,0 +1,42 @@
+{
+  "title": "Education & Skills",
+  "institutions": [
+    {
+      "id": 1,
+      "name": "Bharani Park Hr Sec School",
+      "level": "Higher Secondary",
+      "location": "Bharani Park Hr Sec School, Karur",
+      "logo": "./school.jpg",
+      "logoAlt": "School Logo"
+    },
+    {
+      "id": 2,
+      "name": "SSN College of Engineering",
+      "level": "Undergraduate",
+      "location": "Electrical and Electronics Engineering, Chennai",
+      "logo": "./college.png",
+      "logoAlt": "College Logo",
+      "certificate": {
+        "url": "https://coursera.org/share/50deabe0b3cf85e674f38d034265e586",
+        "label": "Coursera Certificate"
+      }
+    }
+  ],
+  "skills": {
+    "title": "Technical Skills",
+    "row1": [
+      { "name": "JavaScript", "image": "./js.png" },
+      { "name": "Grafana", "image": "./grafana.png" },
+      { "name": "Python", "image": "./python.jpg" },
+      { "name": "AWS", "image": "./aws.png" },
+      { "name": "MongoDB", "image": "./mongodb.png" }
+    ],
+    "row2": [
+      { "name": "MySQL", "image": "./mysql.png" },
+      { "name": "HTML5", "image": "./html.png" },
+      { "name": "CSS3", "image": "./css.png" },
+      { "name": "React", "image": "./react.png" },
+      { "name": "Node.js", "image": "./nodejs.png" }
+    ]
+  }
+}

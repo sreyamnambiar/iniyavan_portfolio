@@ -1,0 +1,28 @@
+{
+  "title": "Projects",
+  "items": [
+    {
+      "id": 1,
+      "title": "Dice Game",
+      "period": "02/2022 - 02/2022",
+      "subtitle": "Simple dice game",
+      "description": "Developed a virtual Dice Game: intuitively rolled virtual dice with a responsive design.",
+      "githubUrl": "https://github.com/iniyav685/dice-game"
+    },
+    {
+      "id": 2,
+      "title": "Drum Kit",
+      "period": "03/2022 - 03/2022",
+      "subtitle": "An immersive web application for drumming experience",
+      "description": "Designed an interactive Drum Kit application: played virtual drums using the keyboard.",
+      "githubUrl": "https://github.com/iniyav685/drum-kit"
+    },
+    {
+      "id": 3,
+      "title": "Layer Addition",
+      "period": "2023",
+      "subtitle": "Adding layer in web GL and scribbling on respective layer and deletion of layer",
+      "description": "Developed html page using three.js which creates layer in web and adding lines to it."
+    }
+  ]
+}

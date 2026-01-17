@@ -1,0 +1,17 @@
+{
+  "title": "Get In Touch",
+  "description": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out through any of the platforms below or send me a message directly.",
+  "email": "iniyavanbalasubramani@gmail.com",
+  "socialLinks": [
+    {
+      "id": 1,
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/iniyavan-b-profile/"
+    },
+    {
+      "id": 2,
+      "name": "GitHub",
+      "url": "https://github.com/iniyav685"
+    }
+  ]
+}
