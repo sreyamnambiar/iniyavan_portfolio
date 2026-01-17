@@ -13,6 +13,7 @@ function App() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -34,16 +35,19 @@ function App() {
       );
 
       if (response.ok) {
-        alert("Message sent!");
+        setSuccessMessage("Message successfully sent!");
         setName('');
         setEmail('');
         setMessage('');
+        setTimeout(() => setSuccessMessage(''), 5000);
       } else {
-        alert("Failed to send message. Please try again.");
+        setSuccessMessage("Failed to send message. Please try again.");
+        setTimeout(() => setSuccessMessage(''), 5000);
       }
     } catch (error) {
       console.error("Error:", error);
-      alert("Failed to send message. Please try again.");
+      setSuccessMessage("Failed to send message. Please try again.");
+      setTimeout(() => setSuccessMessage(''), 5000);
     }
   };
 
@@ -235,6 +239,11 @@ function App() {
                     </div>
                     <button type="submit" className="submit-btn">Send Message</button>
                   </form>
+                  {successMessage && (
+                    <div className={`success-message ${successMessage.includes('successfully') ? 'success' : 'error'}`}>
+                      {successMessage}
+                    </div>
+                  )}
                 </div>
 
                 {/* Contact Info */}
